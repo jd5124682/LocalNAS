@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>table{width:500px;border:1px solid Black;}td,th{border:1px solid Black}article.sidebar>p,aside{display : table-cell ; padding-right : 20px; }aside{border:1px solid Black;} body{ font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;</style>
+	<title>LocalNAS - Main Menu</title>
+</head>
+<body>
+	<a href="index.htm"><h1>LocalNAS - Main Menu</h1></a>
+	<h2>Basic Instructions</h2>
+	<p><mark>Make sure port 8000 is open and using TCP. Run <code>main.py</code> to start the server. Download and see avaliable files at Explore. Upload multiple files at once avaliable for any filetype. See Advanced Instructions for more details.</mark></p>
+	<a href="advanced_instructions.htm">Advanced Instructions</a>
+	<hr>
+	<table>
+	<tr><th>Download<th>Upload</tr>
+	<tr><td><a href="/explore">Explore</a><td><form action="/upload" method="post" enctype="multipart/form-data"><input type="file" name="file" multiple><input type="submit" value="Upload"></form></tr>
+	</table>
+<hr>
+<footer><small>Developed by jd5124682<br><a href="http://www.w3.org/html/logo/">
+<img src="https://www.w3.org/html/logo/badge/html5-badge-h-device-storage.png" width="165" height="64" alt="HTML5 Powered with Device Access, and Offline &amp; Storage" title="HTML5 Powered with Device Access, and Offline &amp; Storage">
+</a><br><a href="https://github.com/jd5124682/LocalNAS">Github Repository </a></small></footer>
+</body>
+</html>
